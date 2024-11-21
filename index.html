@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Sorting Cards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bubble Sorting Cards</h1>
+        <div class="controls">
+            <label for="cardCount">Número de cartas:</label>
+            <input type="number" id="cardCount" min="2" max="52" value="5">
+            <button id="drawCards">Sortear Cartas</button>
+            <button id="sortCards">Ordenar Cartas</button>
+        </div>
+        <div id="cards" class="cards-container"></div>
+        <div id="log" class="log-container">
+            <h2>Registro de Cambios:</h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
